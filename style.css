@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+body{
+    font-family: 'Comfortaa', cursive;
+    background-color: #e8ecf1;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+header{
+    margin-top: 80px;
+}
+h1{
+    font-size: 32px;
+    color:rgb(150, 126, 50);
+}
+header hr{
+    width: 10%;
+    height: 2px;
+    background-color:rgb(150, 126, 50);
+}
+.selectors{
+    margin-top: 25px;
+}
+button{
+    transition: all 0.4s ease-in;
+    background-color:transparent;
+    outline: none;
+    margin:5px;
+    font-size: 16px;
+    padding: 5px;
+    color:rgb(150, 126, 50);
+    border: 2px solid rgb(150, 126, 50);
+    border-radius: 10px;
+    cursor: pointer;
+}
+section{
+    margin-top: 50px;
+}
+.menu_items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu_item{
+    padding: 30px 15px;
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+}
+img{
+    display: block;
+    width: auto;
+    width: 40%;
+    object-fit: cover;
+    border: 2px solid rgb(150, 126, 50);
+    border-radius: 10px;
+}
+.name_coast{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu_item_info{
+    padding: 0 15px;
+}
+section h3{
+    margin:0;
+}
+.name_coast span{
+    color:rgb(150, 126, 50);
+}
+button:hover{
+    background-color: rgb(150, 126, 50);
+    color:white;
+}
